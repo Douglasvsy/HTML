@@ -1,0 +1,33 @@
+<!--forms 
+    - capturar dados de entrada
+    - input -> entrada 
+
+....action->define para url sera enviado os dados, vazio envia para mesma url
+....post-->
+
+<form action="" method="" enctype="multipart/form-data">
+    <h1>Digite seu endereço </h1>
+    <label>
+        rua:
+        <input type="text" name="rua" autocomplete="street-address"/>
+    </label>
+
+    <label>
+        número :
+        <input type="number" name="numero"/>
+    </label>
+
+<label> 
+    email:
+    <input type="email" name="email"/>
+</label>
+
+<label> 
+    Foto:
+    <input type="file" name="arquivo"/>
+</label>
+
+    <button type="reset"> reset</button>
+    <button type="submit"> envia dados </button>
+
+</form>

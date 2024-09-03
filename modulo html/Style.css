@@ -1,0 +1,23 @@
+h1 {
+    color: brown;
+    font-size: 64px;
+    font-style: oblique;
+    text-transform: initial;
+    text-shadow: 10px 10px 10px;
+
+}
+
+p {
+    color: blue; /*troca a cor do texto */
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    line-height: 50px;
+    letter-spacing: 10px;
+    word-spacing: 40px;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+
